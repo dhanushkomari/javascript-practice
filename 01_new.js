@@ -22,13 +22,14 @@ Permanant address: ${firstName}  ${lastName},
 The total package is: ${salary*12}
 *************************************************
 `);
-i=0
+/* i=0
 if (i>1) {
     console.log('Welcome To conditions');    
 }
 else{
     console.log('you are not allowed')
 }
+*/
 
 email = true;
 facebook = true;
