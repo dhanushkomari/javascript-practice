@@ -21,8 +21,25 @@ Permanant address: ${firstName}  ${lastName},
 *************************************************
 The total package is: ${salary*12}
 *************************************************
-            
-`)
+`);
+i=0
+if (i>1) {
+    console.log('Welcome To conditions');    
+}
+else{
+    console.log('you are not allowed')
+}
 
+email = true;
+facebook = true;
+github =  true;
+
+if (email || facebook || github){
+    console.log('user is successfuly logged in')
+    userIn =true;
+    if (userIn){
+        console.log('allowed create posts');
+    }
+}
 
 
