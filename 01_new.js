@@ -41,5 +41,10 @@ if (email || facebook || github){
         console.log('allowed create posts');
     }
 }
+function sayHello() {
+    console.log(`welcome to functions, ${firstName}`)
+}
+var fun1 = sayHello();
+// console.log(fun1);
 
 
