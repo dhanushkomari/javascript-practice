@@ -14,6 +14,15 @@ console.log("old login count: ",user.loginCount);
 user.loginCount = 45
 console.log("new login count: ",user.loginCount);
 console.log(user);          // returns the user as a dictionary(key:value) pairs.
+/*
+      {
+      first_name: 'Dhanush',
+      last_name: 'Komari',
+      role: 'Python and Django Developer',
+      loginCount: 45,
+      googleSignedIn: true
+      }
+*/
 console.table(user);        // returns the objects as table
 /*  ┌────────────────┬───────────────────────────────┐
     │    (index)     │            Values             │
