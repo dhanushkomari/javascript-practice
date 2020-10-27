@@ -17,14 +17,14 @@ Permanant address: ${firstName}  ${lastName},
                 ${address},
                 ${pincode}.
                 ${email}
-                        
+
 *************************************************
 The total package is: ${salary*12}
 *************************************************
 `);
 /* i=0
 if (i>1) {
-    console.log('Welcome To conditions');    
+    console.log('Welcome To conditions');
 }
 else{
     console.log('you are not allowed')
@@ -47,5 +47,3 @@ function sayHello() {
 }
 var fun1 = sayHello();
 // console.log(fun1);
-
-

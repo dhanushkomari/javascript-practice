@@ -13,6 +13,3 @@ function sayHii(){
 var greet = sayHii();
 console.log(greet);
 console.log(sayHii());
-
-
-
