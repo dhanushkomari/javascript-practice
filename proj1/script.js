@@ -1,6 +1,6 @@
 var counter = document.querySelector(".counter")
 var clients = document.querySelector(".clients")
-
+var visitors = document.getElementsByClassName("visitors")
 // counter.innerHTML = 1001;
 
 let count=1;
@@ -15,3 +15,6 @@ setInterval(() => {
 setTimeout( () => {
   clients.innerText = "Clients in The Industry."
 }, 8000)
+
+
+visitors.innerText = "249999"
