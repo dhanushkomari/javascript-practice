@@ -8,7 +8,7 @@ var User = function (firstName,courseCount) {
       };
 };
 
-User.prototype.getFirstName = function () {
+User.prototype.getFirstName = function () {                        // Prototype is used to create a method to ana object outside.
   console.log(`your first name is : ${this.firstName}`);
 };
 
