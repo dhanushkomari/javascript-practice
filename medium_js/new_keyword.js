@@ -1,3 +1,5 @@
+// new keyword in js
+
 var User = function (firstName,courseCount) {
       this.firstName = firstName;
       this.courseCount = courseCount;
@@ -9,5 +11,5 @@ var User = function (firstName,courseCount) {
 var dhanush = new User("dhanush",5)
 console.log(dhanush);
 
-var dk = new User("Dhanush Komari",1)
+var dk = new User("Dhanush Komaris",1)
 console.log(dk);
