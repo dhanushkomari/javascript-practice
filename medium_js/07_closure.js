@@ -22,4 +22,4 @@ function addition(x){
 var add5 = addition(4);
 console.log(add5(5));          //
 
-console.log(addition(5)(5));  //another way
+console.log(addition(5)(5));  //another way  //also known as curring
