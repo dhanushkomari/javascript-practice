@@ -1,3 +1,7 @@
+// document.title = "CourseList | Newanky"
+var title = document.querySelector("title")   // changing the title using js
+title.innerHTML = "CourseList | newanky"
+
 const courses = [
     {
       name : "Complete Python Course",
